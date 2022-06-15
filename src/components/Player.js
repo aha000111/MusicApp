@@ -7,7 +7,7 @@ function Player(props) {
         <h4>Playing now</h4>
         {/* DETAILS */}
         {/* CONTROLS */}
-        <p><strong>Next up:</strong>{props.nextSong.title} by {props.nextSong.artist}</p>
+        <p><strong>Next up: </strong>{props.nextSong.title} by {props.nextSong.artist}</p>
     </div>
   )
 }

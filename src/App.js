@@ -5,15 +5,15 @@ function App() {
   const [songs, setSongs] = useState([
     {
       title: "I ain't Mad at Cha",
-      artist: 'Tupac',
-      img_src: './public/images/tupac.png',
-      src: './public/music/tupac_AintMadAtCha.mp3'
+      artist: "Tupac",
+      img_src: "./images/tupac.png",
+      src: "./music/tupac_AintMadAtCha.mp3"
     },
     {
       title: "Lose Yourself",
-      artist: 'Eminem',
-      img_src: './public/images/eminem.png',
-      src: './public/music/Eminem_LoseYourself.mp3'
+      artist: "Eminem",
+      img_src: "./images/eminem.png",
+      src: "./music/Eminem_LoseYourself.mp3"
     },
     {
       title: 'NY State of Mind',
@@ -80,7 +80,7 @@ function App() {
     },
   ]);
 
-  const [currentSongIndex, setCurrentSongIndex] = useState;
+  const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [nextSongIndex, setnextSongIndex] = useState(currentSongIndex + 1);
 
 
