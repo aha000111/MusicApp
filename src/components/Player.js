@@ -8,7 +8,7 @@ function Player(props) {
         <audio></audio>
         <h4>Playing now</h4>
         <PlayerDetails song={props.song} />
-        <PlayerDetails song={props.song} />
+        <PlayerControls song={props.song} />
         <p><strong>Next up: </strong>{props.nextSong.title} by {props.nextSong.artist}</p>
     </div>
   )
