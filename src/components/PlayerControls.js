@@ -5,7 +5,7 @@ import { faPlay, faPause, faForward, faBackward } from '@fortawesome/free-solid-
 function PlayerControls(props) {
   return (
     <div className="c-player--controls">
-        <button className="skip-btn">
+        <button className="skip-btn" onClick={() => props.SkipSong(false)}>
             <FontAwesomeIcon icon={faBackward} />
         </button>
         
@@ -13,7 +13,7 @@ function PlayerControls(props) {
             <FontAwesomeIcon icon={props.isPlaying ? faPause : faPlay} />
         </button>
 
-        <button className="skip-btn">
+        <button className="skip-btn" onClick={() => props.SkipSong()}>
             <FontAwesomeIcon icon={faForward} />
         </button>
     </div>
