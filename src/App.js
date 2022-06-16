@@ -16,67 +16,67 @@ function App() {
       src: "./music/Eminem_LoseYourself.mp3"
     },
     {
-      title: 'NY State of Mind',
-      artist: 'Nas',
-      img_src: './public/images/nas.png',
-      src: './public/music/nas_NYStateOfMind.mp3'
+      title: "NY State of Mind",
+      artist: "Nas",
+      img_src: "./images/nas.png",
+      src: "./music/nas_NYStateOfMind.mp3"
     },
     {
       title: "Hustler's Ambition",
       artist: '50 Cent',
-      img_src: './public/images/50cent.png',
-      src: "./public/music/50cent_Hustler'sAmbition.mp3"
+      img_src: './images/50cent.png',
+      src: "./music/50cent_Hustler'sAmbition.mp3"
     },
     {
       title: 'Lights Please',
       artist: 'J Cole',
-      img_src: './public/images/JCole.png',
-      src: './public/music/JCole_LightsPlease.mp3'
+      img_src: './images/JCole.png',
+      src: './music/JCole_LightsPlease.mp3'
     },
     {
       title: 'Te Felicito',
       artist: 'Shakira',
-      img_src: './public/images/shakira.png',
-      src: './public/music/Shakire_TeFelicito.mp3'
+      img_src: './images/shakira.png',
+      src: './music/Shakire_TeFelicito.mp3'
     },
     {
       title: 'Re-wind, ft. Artful Dodger',
       artist: 'Craig David',
-      img_src: './public/images/CraigDavid.png',
-      src: './public/music/CD_rewind.mp3'
+      img_src: './images/CraigDavid.png',
+      src: './music/CD_rewind.mp3'
     },
     {
       title: 'Livin on a Prayer',
       artist: 'Bon Jovi',
-      img_src: './public/images/BonJovi.png',
-      src: './public/music/BonJovi_LivinOnAPrayer.mp3'
+      img_src: './images/BonJovi.png',
+      src: './music/BonJovi_LivinOnAPrayer.mp3'
     },
     {
       title: 'Sweet Child O Mine',
       artist: 'Guns N Roses',
-      img_src: './public/images/GunsNRoses.png',
-      src: "./public/music/GunsN'Roses_SweetChildO'Mine.mp3"
+      img_src: './images/GunsNRoses.png',
+      src: "./music/GunsN'Roses_SweetChildO'Mine.mp3"
     },
     {
       title: 'You Can Do It',
       artist: 'Ice Cube',
-      img_src: './public/images/cube.png',
-      src: './public/music/IceCube_YouCanDoIt.mp3'
+      img_src: './images/cube.png',
+      src: './music/IceCube_YouCanDoIt.mp3'
     },    {
       title: 'Clap Again',
       artist: 'Akon',
-      img_src: './public/images/Akon.png',
-      src: './public/music/Akon_ClapAgain.mp3'
+      img_src: './images/Akon.png',
+      src: './music/Akon_ClapAgain.mp3'
     },    {
       title: 'Pencil Full of Lead',
       artist: 'Paolo Nutini',
-      img_src: './public/images/PaoloNutini.png',
-      src: './public/music/PaoloNutini_Pencil Fulloflead.mp3'
+      img_src: './images/PaoloNutini.png',
+      src: './music/PaoloNutini_Pencil Fulloflead.mp3'
     },    {
       title: 'Thank You',
       artist: 'Dido',
-      img_src: './public/images/Dido.png',
-      src: './public/music/Dido_ThankYou.mp3'
+      img_src: './images/Dido.png',
+      src: './music/Dido_ThankYou.mp3'
     },
   ]);
 
